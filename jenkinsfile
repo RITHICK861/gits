@@ -3,7 +3,7 @@ agent any
 stages {
  stage('clone code') {
   steps {
-    git branch: 'master', url: ''
+    git branch: 'master', url: 'https://github.com/RITHICK861/gits/tree/master'
     }
    }
    stage('compile code') {
